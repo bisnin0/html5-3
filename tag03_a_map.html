@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Map을 이용한 링크걸기</title>
+</head>
+<body>
+<h1>Map태그를 이용하여 여러페이지로 링크걸기</h1>
+<img src="../img/jeju_map.jpg" usemap="#jejuMap"/>
+
+<p>
+올해 하반기 주요 반도체 기업의 희비가 엇갈릴 것이란 전망이 나왔다.
+4일 글로벌 시장조사업체 IC인사이츠에 따르면 세계 1위 파운드리(반도체 위탁생산) 기업 대만 TSMC의 하반기 매출이 223억달러(약 26조6천억원)를 기록해 상반기보다 8% 증가할 전망이다.
+IC인사이츠는 "애플 애플리케이션 프로세서(AP) 생산이 하반기 성장세를 이끌 것"이라며 연간 매출이 작년 대비 24% 성장할 것으로 내다봤다.
+</p>
+
+<map name="jejuMap">
+	<!-- 사각형모양으로 링크걸기 
+		shape속성 : rect(사각형), circle(원모양), poly(다각형)
+		coords속성 : 좌표를 설정
+							  x1, y1, x2, y2
+	-->
+	<area shape="rect" coords="250,130,330,180" href="https://www.airport.co.kr/jeju/main.do" target="_blank" title="제주공항홈페이지로 이동합니다." style="outline:none"/>
+	<!--                         x,y,r -->
+	<area shape="circle" coords="330,270,40" href="https://www.jeju.go.kr/hallasan/index.htm" target="_blank"/>
+	<!--                       x,y,x,y,x,y     한쪽방향으로 x,y좌표를 순서대로 표기 -->
+	<area shape="poly" coords="70,210,130,240,70,290,20,245" href="../index.html"/>
+</map>
+</body>
+</html>

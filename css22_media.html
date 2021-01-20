@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device, initial-scale=1"/>
+<style>
+	ul{margin:0;padding:0;list-style-type:none;}
+	ul>li{
+		background-color:lightblue;
+		margin:5px 0px;
+		padding:3px;
+		border:1px solid #ddd;
+		width:100%;
+		float:left;
+	}
+	/*반응형 스타일 지정 */
+	/*     미디어종류 :all, screen, print, tv, projection,,,,,,*/
+	@media all and (min-width:320px) and (max-width:600px){
+		ul>li{
+			background-color:#ddd;
+			font-family:궁서체;
+		}
+		ul>li>img{
+			width:100%;
+			display:none;
+		}
+	}
+	@media all and (min-width:601px) and (max-width:800px){
+		ul>li{
+			background-color:pink;
+		}
+	}
+	@media all and (min-width:801px){
+		ul>li{
+			background-color:orange;
+			width:49.0%;
+			height:10vh;
+			overflow:hidden;
+			
+		}
+	}
+</style>
+</head>
+<body>
+<ul>
+	<li>여전히, 아니 앞으로도 계속 ‘집’은 실체다. 소유하고 있거나, 혹은 아니거나. 숙명 같은 가난을 마주하고, 
+	작가들은 그래도 썼다. 고 박영한 소설가가 중편 펴낸 게 1984년께다. 생활고에도 읽고 쓸 공간, 
+	식구들을 건사할 ‘집’을 찾아다니는 자전적 이야기다.</li>
+	<li>김사인 시인은 박 작가의 소설 제목을 차용해 몇 해 뒤 발표한 시에서 이렇게 썼다. 
+	‘이 나이토록 배운 것이라곤 원고지 메꿔 밥비는 재주뿐/ 쫓기듯 붙잡는 원고지 칸이/ 
+	마침내 못 건널 운명의 강처럼 넓기만 한데/ 달아오른 불덩어리/ 초라한 몸 가릴 방 한 칸이 망망천지에 없단 말이냐.’</li>
+	<li>2020년의 현실은 집을 둘러싼 논점을 ‘있거나 혹은 없거나’의 세계에서 ‘어떤 집이냐’의 세계로까지 확장했다. 
+	이제 ‘집은 재테크의 수단이거나 다음날 밥벌이를 위해 잠시 고단한 몸을 누이는 공간을 뛰어 넘어섰다. 
+	그저 단순한 집이 아니기 때문이다. 세계적인 감염병 사태는 집에서 더 많은 시간을 보내고,
+	 더 많은 일을 할 수밖에 없게 만들었다. 8월20일 통계청이 발표한 ‘2분기 가계동향조사’</li> 
+	<li> 결과를 보면 가구당 월평균 소비지출(291만1000원) 중에서 식료품과 비주류음료 지출이 
+	 45만4000원으로 지난해 같은 기간에 견줘 2.7% 늘었다. 반면 학원비, 밖에서 쓰는 오락비와 문화생활 지출은 줄었다. 
+	 집에서 보내는 시간이 늘어난 탓이다. 지난 7월의 온라인쇼핑 거래액은 12조9625억원으로 
+	 지난해 같은 기간과 비교하면 무려 15.8%가 증가했다고 한다. 관련 통계가 작성되기 시작한 2001년 이후 최대치란다.</li>
+
+	<li>방과 부엌, 거실, 화장실이 똑같은 형태로 ‘찍혀 나오는’ 아파트로는 만족하지 못하는 건 어쩌면 당연한 일이다. 
+	아이들에게 집은 놀이터이자 학교다. 어른들은 육아와 가사, 노동과 휴식을 모두 집 안에서 해결한다. 건축가들이 나서 
+	독특한 매력을 지닌 전국의 집들을 소개하는(EBS)의 의 꾸준한 인기는 ‘사는 공간’의 성격과 질에 대한 사람들의 높아진 </li>
+	<li>관심을 반영한다. 티브이 예능프로그램에서 아예 시청자의 필요에 따라 매물을 골라주거나(), 
+	연예인 출연자의 집 정리를 대신해 주거나, 트레일러 형태의 집을 끌고 다니는 
+	등의 ‘집 버라이어티’가 대세가 된 건 우연이 아닐 것이다.</li>
+	<li>
+		<img src="../img/picnic.jfif"/>
+	</li>
+</ul>
+</body>
+</html>
